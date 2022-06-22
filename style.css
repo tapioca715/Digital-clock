@@ -1,0 +1,30 @@
+@font-face {
+    font-family:'digital-7-mono';
+    src:url('digital-7/digital-7 mono.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.clock {
+    background: #888;
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.5),
+    /* 박스안에 그림자 넣기 */
+    0 0 8px rgba(0, 0, 0, 0.7) inset;
+    width:400px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 10px black;
+    border-radius: 10px;
+    font-size: 90px;
+    font-family:'digital-7-mono', monospace;
+}
